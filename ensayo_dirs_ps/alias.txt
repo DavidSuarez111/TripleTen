@@ -1,0 +1,6 @@
+recuerda que cat > sobreescribe chinga. que duro. 
+
+En fin por si esta vez se queda: 
+para hacer los alias permamentes ocupamos correr nano ~/.bash_aliases y añadir el alias. 
+y eliminar los permanentes desde el .bash_aliases pero los temporales con unalias.
+Genial si se puede escribir con nano. Que útil. 

@@ -1,0 +1,25 @@
+cd (~ te lleva a home, .. carpeta padre) 
+opciones -v (verbose) -i (pregunta lo que vas a hacer),
+cmd mkdir -p (ayuda a hacer multiples ramificaciones directas)
+cmd mv sirve para renombrar archivos, sobreescribir o mover a diferente directorio. sintaxis mover es nombre archivo ./dir o ~/dir
+cmd cp copiar. 
+cmd cat sirve para pegar informaciones, copiar o escribir dentro de archivos. -r si va a copiar un directorio con archivos, -n no sobreescribir
+comodines: *, ?, {}, []. 
+cmd wc cuenta las lineas, palabras y bites de un documento. 
+head y tail. primeras y ultimas 10 filas de un archivo. -n (especifica numero)
+cmd find . o ~ dependiendo si en mismo dir o en home. -name (archivo) -type (d dir o f archivos), -mtime (dias desde modificacion), -cmin,, -delete. 
+-grep
+unalias eliminar alias temporal específico 
+nano editar archivos
+export util para llevar una variable shell a una variable de entorno. 
+
+
+utilidades varias
+$PATH
+$HOME
+definir variables shell 
+my_v = "variable yeah". aplicar echo o printenv. son variables temporales. si se cierra shell adios. 
+os.environ["name"] (importar en python os. import os)
+variable de entorno permanente (sudo -H gedit /etc/environment)
+| pipes. unen calculos. ejemplo ls | grep "data" se enlista y de ahí se toma solo los archivos que tengan data. 
+cat super_text_file.txt | grep "python" | head -3 (primeras 3 lineas donde encuentre en un archivo palabra python)
