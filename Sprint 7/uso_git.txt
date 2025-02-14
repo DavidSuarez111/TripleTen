@@ -1,0 +1,45 @@
+git init
+git clone 
+cd repo 
+git status
+git add nombrearchivo
+git add . 
+git commit -m "Mensaje descriptivo del cambio" 
+git log
+git remote add origin https #puedes poner el repositorio virtual
+git push -u origin main #para llevar los archivos a remoto. 
+git pull origin main
+git branch #puede servir para renombrar a main
+git checkout -b feature-1 #crea una rama con el nombre feature-1
+git branch #verifica en que rama se está. 
+git checkout master #lleva a master. 
+
+pull request y merge request son solicitudes para que otros revisen el código y lo integren en la rama principal. 
+obtener cambios remotos es el pull 
+
+#Entorno virtual
+Es un espacio aislado donde puedes instalar versiones de paquetes sin afectar a tu sistema. 
+#útil para cuando se ocupan usar librerías específicas. 
+
+python -m venv mi_entorno
+mi_entorno\Scripts\activate 
+instalar librerías
+deactivate  #salir del entorno virtual
+eliminarlo opcional 
+rmdir /s mi_entorno  # En Windows (usar PowerShell)
+
+#Linux 
+# 1. Crear el ambiente virtual
+python3 -m venv mi_entorno
+
+# 2. Activar el ambiente virtual
+source mi_entorno/bin/activate
+
+# 3. Instalar las bibliotecas con versiones específicas
+pip install numpy==1.24.3 pandas==1.5.3 matplotlib==3.7.1
+
+# 4. Verificar la instalación de los paquetes
+python3 -c "import numpy; import pandas; import matplotlib; print(numpy.__version__, pandas.__version__, matplotlib.__version__)"
+
+# 5. Desactivar el ambiente virtual
+deactivate
