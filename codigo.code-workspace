@@ -1,5 +1,7 @@
 {
-    "folders": [{
-        "path": "C:/Users/david/1.Archivos-Directorios/Python/Tripleten"
-    }]
+    "folders": [
+        {
+            "path": "../sp7-datasciencejobs"
+        }
+    ]
 }
